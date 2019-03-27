@@ -13,7 +13,9 @@ public class StudentService{
     public List<Cat> getAllStudent() {
         return studentRepository.getAllStudent();
     }
-
+    public String simpleGet() {
+        return "HELLO";
+    }
     public void putStudent() {
         studentRepository.addNewStudent();
     }
